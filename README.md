@@ -13,7 +13,7 @@ The training, validation and testing features are available in the ```features``
 ```
 bash train.sh
 ```
-# BibTeX Citation
+## BibTeX Citation
 
 If you find MADA useful in your research, please use the following BibTeX entry for citation.
 
