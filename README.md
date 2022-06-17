@@ -13,6 +13,13 @@ The training, validation and testing features are available in the ```features``
 ```
 bash train.sh
 ```
+
+## Installation:
+
+```
+conda env create -f environment.yml
+```
+
 ## BibTeX Citation
 
 If you find MADA useful in your research, please use the following BibTeX entry for citation.
