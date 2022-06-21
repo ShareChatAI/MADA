@@ -6,7 +6,7 @@ In this repository, we provide the features and codebase for reproducing our wor
 
 ## DOWNLOAD INSTRUCTIONS
 
-The training, validation and testing features are available in the ```features``` folder.
+Downloaed the pre-extracted audio, emotion and textual features in the ```features``` folder from [here](https://drive.google.com/file/d/1DXTiCT9eWjoIrQEKs27JNPyfclM7Effi/view?usp=sharing).
 
 ## Training the models:
 
