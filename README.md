@@ -6,7 +6,11 @@ In this repository, we provide the features and codebase for reproducing our wor
 
 ## DOWNLOAD INSTRUCTIONS
 
-Downloaed the pre-extracted audio, emotion and textual features in the ```features``` folder from [here](https://drive.google.com/file/d/1DXTiCT9eWjoIrQEKs27JNPyfclM7Effi/view?usp=sharing).
+### Dataset
+Please download the train/validation splits of ADIMA dataset in the ```annotations``` folder from [here](https://drive.google.com/drive/folders/18U8penuxlxqMmeuatyqeLBZfkMHp2SjK?usp=sharing).
+
+### Features
+Please download the pre-extracted audio, emotion and textual features in the ```features``` folder from [here](https://drive.google.com/file/d/1DXTiCT9eWjoIrQEKs27JNPyfclM7Effi/view?usp=sharing).
 
 ## Training the models:
 
