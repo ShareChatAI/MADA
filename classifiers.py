@@ -75,7 +75,7 @@ class MADA:
         for i in range(X_test.shape[0]):
             y_pred[i]=self.findMajority(arr[i,:], self.num_classifiers)
         
-        print("Majority voting: ", accuracy_score(y_test, y_final_pred))
+        print("Majority voting: ", accuracy_score(y_test, y_pred))
 
     
     def findMajority(self, arr, n):
