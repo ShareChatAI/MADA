@@ -18,13 +18,13 @@ def train(args):
 
     print("=== Model Initialization ===")
     model = MADA(args)
-    feat_dim_emo_pca = get_feat_dim(args.feats_base_path, "emo_pca")
+    feat_dim_emo_pca = get_feat_dim(args.feats_base_path + args.lang, "emo_pca")
     args.emo_feat = args.emo_feat + str(feat_dim_emo_pca) + "_feats"
 
-    feat_dim_sent_pca = get_feat_dim(args.feats_base_path, "sent_pca")
+    feat_dim_sent_pca = get_feat_dim(args.feats_base_path + args.lang, "sent_pca")
     args.sent_feat = args.sent_feat + str(feat_dim_sent_pca) + "_feats"
 
-    feat_dim_xlsr_pca = get_feat_dim(args.feats_base_path, "wav2vec_xlsr_pca")
+    feat_dim_xlsr_pca = get_feat_dim(args.feats_base_path + args.lang, "wav2vec_xlsr_pca")
     args.wav2vec_feat = args.wav2vec_feat + str(feat_dim_xlsr_pca) + "_feats"
 
     feat_dim=int(feat_dim_sent_pca)+int(feat_dim_emo_pca)+ int(feat_dim_xlsr_pca)
